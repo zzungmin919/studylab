@@ -123,6 +123,7 @@ section .contents-title img{width:auto;height:48px}
 
 .blind{overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;margin:-1px;padding:0;border:0;clip:rect(0 0 0 0)}
 .header,.footer{position:relative;z-index:1;}
+/* 헤더 */
 .header{height:50px;border-bottom:1px solid #eee;background:#fff;text-align:center}
 .header .header-top{display:flex;line-height:44px}
 .header .header-logo{width:153px;margin-right:auto;background:url('https://img.cjthemarket.com/cjom/mobile/images/common/logo-themarket.svg')no-repeat center center;background-size:153px auto}
@@ -177,7 +178,7 @@ section .contents-title img{width:auto;height:48px}
 .contents .contents-section-party .contents-image-box:nth-child(3){margin:30px 0 0 32px}
 .contents .contents-parallax-image .contents-image-box.active{opacity:1;transform:scale(1) translateY(0)}
 
-.contents .contens-section-copy{position:relative;width:100%;height:100vh;background:url('https://img.cjthemarket.com/cjom/mobile/images/brand/gourmet/story_main2.jpg')no-repeat center center/cover}
+.contents .contens-section-copy{position:relative;width:100%;height:99vh;background:url('https://img.cjthemarket.com/cjom/mobile/images/brand/gourmet/story_main2.jpg')no-repeat center center/cover}
 .contents .contens-section-copy .contents-title::before{display:block;width:100%;height:100px;background:url('https://img.cjthemarket.com/cjom/mobile/images/brand/gourmet/logo.png')no-repeat center;background-size:auto 100%;content:''}
 .contents .contens-section-copy .contents-title{position:absolute;top:50%;width:100%;font-size:32px;font-weight:700;line-height:48px;color:#fff;text-align:center}
 
@@ -223,7 +224,7 @@ section .contents-title img{width:auto;height:48px}
 
 
 
-
+/* 푸터 */
 .footer{padding:9px 15px 80px;background-color:#f8f8f8}
 .footer .footer-inner .footer-util-list{display:flex;justify-content:center;align-items:center;margin:0 -7.5px;border:1px solid #f2f0f0;background-color:#fff}
 .footer .footer-inner .footer-util-item{position:relative;width:calc(100% / 3);height:38px;line-height:38px;text-align:center}
